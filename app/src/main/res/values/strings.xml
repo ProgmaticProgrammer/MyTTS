@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyTTS</string>
+    <string-array name="SentencesDrill">
+        <item>He can go there in an hour.</item>
+        <item>I will not go.</item>
+        <item>It wound not go well in there.</item>
+        <item>He will not go there, will he?</item>
+        <item>At the hour I am going.</item>
+        <item>Good, I will go there.</item>
+        <item>Will he not go?</item>
+        <item>Are there more in there?</item>
+    </string-array>
+    <string-array name="SentencesDictation">
+        <item>A day here in the good air will aid her.</item>
+        <item>I can not hear him well, can he hear me?</item>
+        <item>The hat lay there an hour.</item>
+        <item>Her gay air will no go well there.</item>
+        <item>I am willing; Ema may go in an hour.</item>
+        <item>Amy hid her hat in the tree.</item>
+        <item>I can go there in a day.</item>
+        <item>Ray will aid her at the hill.</item>
+        <item>I am ill; I cannot go.</item>
+        <item>Are there more going in the dray?</item>
+        <item>I hear Eddy will aid me in Erie in May.</item>
+        <item>Ella will not heat the tea.</item>
+        <item>He can go there in an hour.</item>
+        <item>He lay there an hour.</item>
+        <item>A good aim will aid him, will it not?</item>
+        <item>In an hour he will go.</item>
+        <item>I will go in an hour.</item>
+        <item>The tea tray lay there an hour.</item>
+    </string-array>
+</resources>
