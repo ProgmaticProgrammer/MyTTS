@@ -91,7 +91,11 @@
             android:progress="50"/>
     </LinearLayout>
 
-
-
+    <ImageView
+        android:id="@+id/cursiveIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="240dp"
+        app:srcCompat="@drawable/avd_handwriting_android_design" />
 
 </LinearLayout>

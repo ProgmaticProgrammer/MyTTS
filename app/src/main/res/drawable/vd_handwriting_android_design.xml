@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="308dp"
+  android:height="68dp"
+  android:tint="?attr/colorPrimary"
+  android:viewportHeight="68"
+  android:viewportWidth="308">
+
+  <path
+    android:name="andro"
+    android:pathData="@string/path_andro"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"
+      tools:ignore="VectorPath" />
+
+  <path
+    android:name="id"
+    android:pathData="@string/path_id"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"/>
+
+  <path
+    android:name="a_stroke"
+    android:pathData="@string/path_a_stroke"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"/>
+
+  <path
+    android:name="i_dot"
+    android:pathData="@string/path_i_dot"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"/>
+
+  <path
+    android:name="d"
+    android:pathData="@string/path_d"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"/>
+
+  <path
+    android:name="esig"
+    android:pathData="@string/path_esig"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"/>
+
+  <path
+    android:name="n"
+    android:pathData="@string/path_n"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"/>
+
+  <path
+    android:name="second_i_dot"
+    android:pathData="@string/path_second_i_dot"
+    android:strokeColor="@android:color/white"
+    android:strokeLineCap="round"
+    android:strokeLineJoin="round"
+    android:strokeWidth="3"
+    android:trimPathEnd="0"/>
+
+</vector>

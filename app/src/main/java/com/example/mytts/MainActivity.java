@@ -1,7 +1,6 @@
 package com.example.mytts;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.graphics.drawable.Animatable;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
@@ -10,11 +9,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.Spinner;
 
-import java.util.Locale;
+import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     private TextToSpeech mTTS;
     private EditText mEditText;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private Spinner mSpinnerSentences;
 
     private String mSelectedSentence;
+    private Animatable cursiveAvd;
 
     private void speakAll() {
         String[] sentences = getResources().getStringArray(R.array.SentencesDrill);
@@ -40,10 +42,18 @@ public class MainActivity extends AppCompatActivity {
         mTTS.speak(text, TextToSpeech.QUEUE_FLUSH, null);
     }
 
+    private void restartCursiveAnimation() {
+        cursiveAvd.stop();
+        cursiveAvd.start();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        cursiveAvd = ((Animatable) ((ImageView) findViewById(R.id.cursiveIcon)).getDrawable());
+        restartCursiveAnimation();
 
         mButtonSpeakInput = (Button) findViewById(R.id.button_speak_input);
         mButtonSpeakOne = (Button) findViewById(R.id.button_speak_one);
